@@ -15,6 +15,7 @@ const Dashboard = () => {
       <View style={styles.content}>
         <Text style={styles.title}>{t('brand')}</Text>
         <Text style={styles.title}>{t('sign_in')}</Text>
+        <Text style={styles.title}>{t('sign_in')}</Text>
       </View>
     </ScrollView>
   );
