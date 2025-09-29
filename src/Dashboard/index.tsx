@@ -1,7 +1,10 @@
 import React from 'react';
 import { ScrollView, Text, View, StyleSheet } from 'react-native';
+import { useTranslation } from 'react-i18next';
 
 const Dashboard = () => {
+  const { t } = useTranslation();
+
   return (
     <ScrollView
       contentContainerStyle={styles.container}
@@ -10,8 +13,8 @@ const Dashboard = () => {
       bounces={false}
     >
       <View style={styles.content}>
-        <Text style={styles.title}>{'Inn-flow'}</Text>
-        <Text style={styles.title}>{'Sign In'}</Text>
+        <Text style={styles.title}>{t('brand')}</Text>
+        <Text style={styles.title}>{t('sign_in')}</Text>
       </View>
     </ScrollView>
   );

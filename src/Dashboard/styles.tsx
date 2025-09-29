@@ -7,7 +7,6 @@ export const styles = () =>
       justifyContent: 'center',
       marginBottom: 15,
     },
-
     commonContainer: {
       flexGrow: 1,
       justifyContent: 'center',
@@ -24,7 +23,6 @@ export const styles = () =>
     marginBottom20: {
       marginBottom: 20,
     },
-
     appLogo: {
       width: 200,
       height: 53,
@@ -34,7 +32,6 @@ export const styles = () =>
       textAlign: 'center',
       marginBottom: 20,
     },
-
     inputLable: {
       color: 'red',
       fontSize: 14,
@@ -54,7 +51,6 @@ export const styles = () =>
       flexDirection: 'row',
       borderWidth: 1,
       paddingHorizontal: 10,
-
       borderRadius: 8,
       backgroundColor: 'red',
     },
@@ -68,7 +64,6 @@ export const styles = () =>
     },
     errorText: {
       flex: 1,
-
       fontSize: 12,
     },
     hyperLinkText: {
